@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="es.vidal.finanzas.NoticeTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2026-10-15T17:22:24" hostname="87a9743145fb" time="0.015">
+  <properties/>
+  <testcase name="capturesRefund" classname="es.vidal.finanzas.NoticeTest" time="0.006"/>
+  <testcase name="transferDirectionMustBeKnown" classname="es.vidal.finanzas.NoticeTest" time="0.001"/>
+  <testcase name="capturesOutgoingTransfer" classname="es.vidal.finanzas.NoticeTest" time="0.0"/>
+  <testcase name="rejectedAndFuturePaymentsAreNotCounted" classname="es.vidal.finanzas.NoticeTest" time="0.001"/>
+  <testcase name="capturesDirectDebit" classname="es.vidal.finanzas.NoticeTest" time="0.001"/>
+  <testcase name="foreignCurrencyIsNotConverted" classname="es.vidal.finanzas.NoticeTest" time="0.0"/>
+  <testcase name="refusesAmbiguousBalance" classname="es.vidal.finanzas.NoticeTest" time="0.0"/>
+  <testcase name="capturesCardPayment" classname="es.vidal.finanzas.NoticeTest" time="0.001"/>
+  <testcase name="neverStoresAuthenticationMessages" classname="es.vidal.finanzas.NoticeTest" time="0.0"/>
+  <testcase name="sameAmountOnlySuggestsDuplicateInShortWindow" classname="es.vidal.finanzas.NoticeTest" time="0.001"/>
+  <testcase name="noAmountNoGuess" classname="es.vidal.finanzas.NoticeTest" time="0.001"/>
+  <testcase name="ordinaryNotificationsAreIgnored" classname="es.vidal.finanzas.NoticeTest" time="0.0"/>
+  <testcase name="reconciliationIsScopedToAccountAndDate" classname="es.vidal.finanzas.NoticeTest" time="0.0"/>
+  <testcase name="unsupportedNumberFormatIsNotMisread" classname="es.vidal.finanzas.NoticeTest" time="0.001"/>
+  <testcase name="capturesIncomingTransfer" classname="es.vidal.finanzas.NoticeTest" time="0.0"/>
+  <testcase name="capturesPayroll" classname="es.vidal.finanzas.NoticeTest" time="0.001"/>
+  <testcase name="amountOnlyNotificationNeedsReview" classname="es.vidal.finanzas.NoticeTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

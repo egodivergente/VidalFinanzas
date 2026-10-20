@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="es.vidal.finanzas.CoreTest" tests="26" skipped="0" failures="0" errors="0" timestamp="2026-10-15T16:21:56" hostname="87a9743145fb" time="1.65">
+  <properties/>
+  <testcase name="invalidBackupRelationsRejected" classname="es.vidal.finanzas.CoreTest" time="0.043"/>
+  <testcase name="xlsBinaryReader" classname="es.vidal.finanzas.CoreTest" time="0.121"/>
+  <testcase name="csvMalformedRejected" classname="es.vidal.finanzas.CoreTest" time="0.005"/>
+  <testcase name="debitCreditColumns" classname="es.vidal.finanzas.CoreTest" time="0.005"/>
+  <testcase name="csvEscapedQuotes" classname="es.vidal.finanzas.CoreTest" time="0.0"/>
+  <testcase name="rulesAreNormalizedAndPrioritized" classname="es.vidal.finanzas.CoreTest" time="0.003"/>
+  <testcase name="validSnapshotAccepted" classname="es.vidal.finanzas.CoreTest" time="0.0"/>
+  <testcase name="overlappingImportKeepsLegitimateRepeatedPurchases" classname="es.vidal.finanzas.CoreTest" time="0.01"/>
+  <testcase name="transferAndRefundAccounting" classname="es.vidal.finanzas.CoreTest" time="0.0"/>
+  <testcase name="xlsxReadsSharedStringsDatesAndNumericAmounts" classname="es.vidal.finanzas.CoreTest" time="0.022"/>
+  <testcase name="ibercajaDescriptionAndSharedCardReference" classname="es.vidal.finanzas.CoreTest" time="0.006"/>
+  <testcase name="datesAreStrict" classname="es.vidal.finanzas.CoreTest" time="0.0"/>
+  <testcase name="pdfExtensionIsRejectedClearly" classname="es.vidal.finanzas.CoreTest" time="0.0"/>
+  <testcase name="backupRoundtripAndTamperResistance" classname="es.vidal.finanzas.CoreTest" time="0.936"/>
+  <testcase name="namespacePrefixedExcelWithImplicitCellAddressesIsRead" classname="es.vidal.finanzas.CoreTest" time="0.002"/>
+  <testcase name="csvPreservesQuotedSeparatorsAndNewlines" classname="es.vidal.finanzas.CoreTest" time="0.001"/>
+  <testcase name="invalidRowsRemainVisible" classname="es.vidal.finanzas.CoreTest" time="0.002"/>
+  <testcase name="binaryFileIsNotTreatedAsCsv" classname="es.vidal.finanzas.CoreTest" time="0.0"/>
+  <testcase name="balanceDistinguishesIdenticalPurchases" classname="es.vidal.finanzas.CoreTest" time="0.003"/>
+  <testcase name="repeatedReferenceWithinFileKeepsSeparatePurchases" classname="es.vidal.finanzas.CoreTest" time="0.001"/>
+  <testcase name="pdfIsRejectedBeforeCsvParsing" classname="es.vidal.finanzas.CoreTest" time="0.0"/>
+  <testcase name="referenceAloneDoesNotDiscardDifferentDescriptions" classname="es.vidal.finanzas.CoreTest" time="0.001"/>
+  <testcase name="ambiguousMoneyIsRejected" classname="es.vidal.finanzas.CoreTest" time="0.001"/>
+  <testcase name="decimalMoneyIsExact" classname="es.vidal.finanzas.CoreTest" time="0.0"/>
+  <testcase name="duplicatesAreScopedToAccount" classname="es.vidal.finanzas.CoreTest" time="0.001"/>
+  <testcase name="optionalLocalBankFileIntegration" classname="es.vidal.finanzas.CoreTest" time="0.482"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
